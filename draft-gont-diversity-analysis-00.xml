@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE rfc SYSTEM "rfc2629.dtd">
+<?xml-stylesheet type="text/xsl" href="rfc2629.xslt" ?>
+<?rfc toc="yes" ?>
+<?rfc toc="yes"?>
+<?rfc tocompact="yes"?>
+<?rfc tocdepth="2"?>
+<?rfc symrefs="yes" ?>
+<?rfc sortrefs="yes"?>
+<?rfc strict="no" ?>
+
+<rfc
+	ipr="trust200902"
+	category="info"
+	docName="draft-gont-diversity-analysis-00">
+  <front>
+    <title abbrev="Diversity &amp; Inclusiveness">Diversity and Inclusiveness in the IETF</title>
+
+    <author fullname="Fernando Gont" initials="F." surname="Gont">
+
+      <organization abbrev="SI6 Networks">SI6 Networks</organization>
+      <address>
+        <postal>
+          <street>Segurola y Habana 4310, 7mo Piso</street>
+<!--          <code>1706</code> -->
+          <city>Villa Devoto</city>
+          <region>Ciudad Autonoma de Buenos Aires</region>
+          <country>Argentina</country>
+        </postal>
+<!--        <phone>+54 11 4650 8472</phone> -->
+        <email>fgont@si6networks.com</email>
+        <uri>https://www.si6networks.com</uri>
+       </address>
+    </author>
+
+    <date/>
+
+    <area>General Area</area>
+    <workgroup>gendispatch</workgroup>
+
+    <abstract>
+    <t>
+This document discusses a number of structural issues that currently hinders diversity and inclusiveness in the IETF. The issues discussed in this document are non-exhaustive, but still provide a good starting point for the IETF to establish a more comprehensive agenda to foster diversity and inclusiveness.
+</t>
+    </abstract>
+  </front>
+
+  <middle>
+
+
+<section title="DISCLAIMER" anchor="disclaimer">
+<t>
+For the most part, many of the topics discussed in this document are the result of on-list and off-list conversations with a number of IETF particiapants, and are based personal experiences of said group of colleagues, and what such group believes are some of the structural problems hidering diversity in the IETF.</t>
+
+<t>As such, it is very likely (and possibly guaranteed!) that there are aspects that are partially (or even totally!) overlooked. If you feel that is the case, please do contact the authors, and feel free to educate us on what we may have missed. The authors will be happy to incorporate co-authors where needed, include ideas from others while giving due credit, or even include ideas while anonymizing the source or author of the proposal.
+</t>
+
+</section>
+
+
+<section title="Introduction" anchor="intro">
+<t>
+This document tries to raise a number of structural issues that currently hinders diversity and inclusiveness in the IETF. The issues discussed in this document are non-exhaustive, but still provide a good starting point for the IETF to establish a more comprehensive agenda for the IETF to address the issue of diversity and inclusiveness.
+</t>
+
+<t>We have grouped structural issues in these categories:
+
+<list style="symbols">
+<t>Perceived Return of Investment (ROI) (see <xref target="roi"/>)</t>
+<t>Effects of Current Participation (see <xref target="participation"/>)</t>
+<t>Diversity in IETF groups and leadership roles (see <xref target="leadership"/>)</t>
+<t>Economic Constraints (see <xref target="economic"/>)</t>
+<t>Educational Constraints (see <xref target="educational"/>)</t>
+<t>Cultural Issues (see <xref target="cultural"/>)</t>
+<t>Processes (see <xref target="processes"/>)</t>
+<t>Difficulty in Joining the IETF (see <xref target="joining"/>)</t>
+</list>
+</t>
+
+
+</section>
+
+
+
+<section title="Perceived Return of Investment (ROI)" anchor="roi">
+<t>The IETF is far from achieving diversity in many (if not most) axis. For example, the IETF is far from having gender parity in the number of participants, or in having a truly diverse geographical participantion.</t>
+
+<t>While many IETF participants engage in the IETF for the sake of improving the Internet or as a personal hobby, IETF participation involves an investment, whether participation is done independently, or supported by an organization (e.g., company).</t>
+
+<t>As with any investment, the question of what is the return of investment (ROI) is often asked both by participants and their supporting companies (if any).</t>
+
+
+ 
+<t>In the case of companies, the possible ROI will typically depend on the specific sector, but might include:
+<list style="symbols">
+<t>Benefiting from Intellectual Property Rights (IPRs)</t>
+<t>Benefiting from leading technologies, with e.g. improved "time to market"</t>
+</list>
+</t>
+
+<t>In the case of independent participants, ROI could be in the form of:
+<list style="symbols">
+<t>better career oportunities</t>
+</list>
+</t>
+
+
+<t>However, these benefits can only be realized by a small subset of companies and participants. For example, in order for companies to benefit from IPRs are improved time-to-market of products, they need to be in the business of manufacturing such specific products. In order cases, companies might deem the ROI of IETF participation as neglegible.</t>
+
+<t>In the case of independent participants, the ability to realize better career opportunities generally depends on the availability of companies that might benefit from the IETF in the same country or region. In other words, lacking local companies or organizations that benefit from IETF participation essentially means that IETF participation and the associated skills will result in a neglegible ROI for independent participants.</t>
+
+<t>As a result of this, there is a whole range of individuals and organizations for which IETF participation might not result attractive or feasible:
+
+<list style="symbols">
+<t>Individuals from developing countries</t>
+<t>Service- and consulting-oriented companies</t>
+<t>Un-affilieted open source developers</t>
+<t>Operators</t>
+</list>
+</t>
+
+<t>That said, there is always the case of individuals and/or companies that might still try engage in the IETF. However, other issues, such as those discussed in <xref target="participation"/>, <xref target="leadership"/> and <xref target="economic"/> typically discourage such participation.
+</t>
+
+</section>
+
+<section title="Effects of Current Participation" anchor="participation">
+<t>The lack of diversity in current IETF participation essentially means that decisions and the perception of structural problems is biased towards in favor of the realities of current participants, and hinders the participation of those not "in the club" of large Internet tech companies.</t>
+
+<t>For example, face-to-face (f2f) meetings are held in regions reflecting current participation levels. But this in turn facilitates participation from those regions, and makes participation from other regions less accessible.</t>
+
+<t>Similarly, the lack of diversity in current participants is in turn reflected in the lack of diversity in IETF groups and leadership roles (discussed in <xref target="leadership"/>) which, again, tends to bias processes in favor of the current participants.</t>
+
+<t>Finally, how new work is considered by the IETF is also generally biased in favor of those "in the loop" -- that is, participants that are already engaged in the IETF and that generally belong to the reduced groups for which a ROI from IETF participation is feasible (see <xref target="roi"/>).
+</t>
+
+
+</section>
+
+<section title="Diversity in IETF groups and leadership roles" anchor="leadership">
+
+<t> Lack of diversity in IETF groups and leadership roles has a direct effect on IETF participation, as a result of:
+
+<list style="symbols">
+<t>Process fairness by having a very small number of interests judging WG consensus, community consensus, and appeals.</t>
+<t>Leadership selection fairness by having a limited number of interests participating in the NOMCOM and IAB.</t>
+<t>Arbitrary decisions produced and enforces by such groups, without getting community consensus on them (see e.g., <xref target="I-D.carpenter-nomcom2020-letter"/>.</t>
+<!-- There's a real problem recently in that IESG has decided it can make up arbitrary rules and enforce its own biases, without getting community consensus on them. -->
+</list>
+
+<!-- XXX: TODO: This one still to be incorporated, bu I don't know where
+- There's a general tendency to use working groups to "hide" discussions from most IETF participants, and avoid resolving tussles, even or perhaps especially when those discussions hinge on bias and prejudice
+-->
+
+</t>
+
+<section title="IESG" anchor="iesg">
+<t>While one might expect greater diversity in IESG members, there are at least two possible causes for that:
+<list style="symbols">
+<t>There is reduced diversity in many axis of IETF participation</t>
+<t>There is (allegedly) a reduced number of possible candidates with the necessary skills</t>
+</list>
+
+
+As noted in <xref target="participation"/>, it is probably obvious that IETF participation is not as diverse as one would expect -- and this certainly constrains diversity in IETF leadership roles in general.
+</t>
+
+<t>It is also commonly suggested that there is a limited number of candidates with the appropriate skills set for IESG positions, and that one of the common missing skills is IETF management experience. However, there does not seem to be a concrete effort to produce an increase in the number of participants with appropriate skills to volunteeer for such roles. For example, fostering diversity in WG chair positions would be an obvious choice for increasing the pool of potential candidates for IESG positions, as discussed in <xref target="chairs"/>.
+</t>
+
+</section>
+
+<section title="WG Chairs" anchor="chairs">
+
+<t>Most WGs have permanent WG chairs which only become rotated when:
+
+<list style="symbols">
+<t>A WG chair takes a higher responsibility withing the IETF (e.g. WG Chair becomes an Area Director)</t>
+<t>There are personal issues affecting the WG chair (e.g., WG chair retires, changes jobs, etc.)</t>
+<t>There is evident malfunction of a WG which leads to an WG chair being replaced</t>
+</list>
+
+</t>
+
+<t>However, if the IETF adopted the convention that chairs are rotated in all cases, this would certainly:
+
+<list style="symbols">
+<t>Increase diversity in WG chairs positions.</t>
+<t>Increase the pool of IETF participants with IETF leadership experience, which could in turn help increase diversity in other leadership roles, such as the IESG.
+</t>
+<t>Makes WG chair changes less stressful and controversial, since WG chairs are rotated *by default*</t>
+</list>
+</t>
+
+<t>
+<list style="hanging">
+<t>NOTE: One could envision a policy where each WG has three co-chairs, with different experience levels, and where one of the co-chairs has no previous WG chair experience. Every two (or so) years the most experienced WG chair leaves his role, which is ocupied by the second-most experienced WG chair from the group. And a new un-experienced WG chair is incorporated by the WG.
+</t>
+</list>
+</t>
+
+
+
+
+</section>
+
+
+<section title="NOMCOM" anchor="nomcom">
+<t>The current NOMCOM member selection rules try to be fair, but are still biased in favor of the specific groups discussed in <xref target="roi"/> and <xref target="participation"/>.</t>
+
+<t>For example, 
+
+<list style="symbols">
+<t>The requirement to have attended X out of Y of the last f2f meetings is clearly biased in favor of a specific group of IETF participants</t>
+<t>Big tech companies are more likely to be willing to let their employees do that because they're more likely to get IESG and IAB members who favor their interests.</t>
+<t>There is the expectation that NOMCOM members attend f2f meetings to carry their NOMCOM duties -- which, again, favors the same group of participants (those with funding, which generally work for big tech companies).</t>
+<t>If the NOMCOM has f2f interviews, the process also favors those candidates that are able to attend f2f meetings, who can be interviewed in-person.
+</t>
+</list>
+</t>
+
+
+<t>
+<list style="hanging">
+<t>NOTE: There are a few obvious things that could be done to improve these issues. 
+<xref target="RFC8989"/> is certainly a step in the right direction. Having the NOMCOM perform its duties only online would be another.
+</t>
+</list>
+</t>
+</section>
+</section>
+
+
+
+<section title="Processes" anchor="processes">
+<t>Some aspects of WG operation are loosely described. While this may be beneficial in some cases, other times the rules or expectations regarding how WGs are meant to opperate result challenging for participants, and even more so to newcomers.
+
+<list style="hanging">
+<t>NOTE: <xref target="I-D.carpenter-gendispatch-rfc7221bis"/> is a good attempt at clarifying some specific aspects of WG operation.</t>
+</list>
+</t>
+
+
+</section>
+<!--
+
+- There's a general tendency to use working groups to "hide" discussions from most IETF participants, and avoid resolving tussles, even or perhaps especially when those discussions hinge on bias and prejudice
+-->
+
+<section title="Economic Constraints" anchor="economic">
+<t>The current IETF processes  favor participants who have enough money to travel to several meetings a year, and/or participants who work for companies who can afford such expense and are willing to spend that money (which tends to be a specific subset of companies, as discussed in <xref target="roi"/>).</t>
+
+<t>Clearly, work such as <xref target="I-D.kuehlewind-shmoo-remote-fee"/> is a step in the right direction. Other things to evaluate and consider are: incorporating fee waivers for f2f meetings and/or adjusting the IETF meeting fee to the local realities (i.e., move away from a flat fee), and reducing the number of f2f meetings.
+</t>
+</section>
+
+
+<section title="Educational Constraints" anchor="educational">
+<t>Improving internet protocols requires skills to assess protocols in a critical way. While there are multiple courses and certifications that provide general knowledge about Internet protocols and the skills for e.g. configuring internet routers, there are fewer materials that try to analyze protocols in a critical way (e.g. <xref target="Perlman"/> and <xref target="Day"/>). And this represents a barrier to newcomers.
+</t>
+
+<t>While this is not a problem that the IETF could (or should) solve, there has been work that has helped in this area, and possibly more could be done. e.g., some IETF tutorials have been very educational and useful not only to introduce newcomers to IETF work, but also to provide context for such work, and ocasionally also discuss shortcomings. There is certainly room for the IETF to expand on these activities.
+</t>
+
+
+</section>
+
+<section title="Cultural Issues" anchor="cultural">
+
+<t>There are a number of cultural issues that also hinder diversity and inclusiveness in the IETF. One of such issues is language, which can be exclusionary in many different ways.</t>
+
+<t>For example, IETF participation requires and implies use of English language. While English language has become the de facto international language (with attempts such as Esperanto failing miserably), communication in (any) non-native language can be challenging for a number of reasons. This tends to be more challenging when oral communication (as opposed to written) is involved when expressions or phrasals that are unfamiliar to non-native speakers of the language are involved.
+
+<list style="hanging">
+<t>Consider expressions such as "red herring", "knee jerk", and others.</t>
+</list>
+</t>
+
+
+<t>Additionally, use of terms that may have a political or social connotation may result offensive to at least part of the community (see e.g. <xref target="I-D.knodel-terminology"/> or <xref target="I-D.gondwana-effective-terminology"/>).
+</t>
+
+
+</section>
+
+
+<section title="Difficulty in Joining the IETF" anchor="joining">
+
+<t>It is usually hard for newcomers (and sometimes experienced people) to see how to contribute effectively or even to find which working groups (if any) whose work they would be interested in.</t>
+
+<t>Similarly there are now so many different groups, committees, supporting organizations, etc. involved in running IETF that it is hard to understand the big picture, and know which group does what, or which people to talk to about any given concern. 
+</t>
+
+<t>It is also hard for newer people to get "up to speed" on an existing working group or topic area.   Reading the WG's mailing list archive can be very time consuming and not always very illuminating. The datatracker and Tools effort have been (and still are) of a lot of help here. But having materials that e.g. provide a summary of what the ongoing work of a WG is, and that summaries what recent discussions have been about, and what the different views are/have been, would certainly help in this area.
+</t>
+
+<!-- XXX: To be added
+- IETF documents on IETF itself seem to be very haphazardly organized, and again it can be hard to tell which ones are current or relevant.   There are multiple documents that could be interpreted as codes of conduct (but one of them only applies to people who are insured against legal action, so not really applicable to most IETF participants).
+-->
+</section>
+
+
+
+
+
+<section title="IANA Considerations" anchor="iana-cons">
+<t>There are no IANA registries within this document.  The RFC-Editor can remove this section before publication of this document as an RFC.
+</t>
+</section>
+
+    <section title="Security Considerations">
+
+<t>The security implications arising from this document.
+</t>
+    </section>
+
+    <section title="Acknowledgements">
+<t>This document has been motivated by discussions with a number of individuals, both on- and off-list.
+</t>
+    </section>
+
+
+  </middle>
+
+  <back>
+
+<!--
+  <references title='Normative References'>
+
+
+  </references>
+-->
+
+  <references title='Informative References'>
+	<?rfc include="reference.RFC.8989" ?>
+	<?rfc include="reference.I-D.kuehlewind-shmoo-remote-fee" ?>
+	
+	<?rfc include="reference.I-D.carpenter-nomcom2020-letter" ?>
+
+	<?rfc include="reference.I-D.carpenter-gendispatch-rfc7221bis" ?>
+	<?rfc include="reference.I-D.knodel-terminology" ?>
+	<?rfc include="reference.I-D.gondwana-effective-terminology" ?>
+
+    <reference anchor="Perlman">
+  <front>
+  <title>Interconnections: Bridges, Routers, Switches, and Internetworking Protocols</title>
+  <author initials="R." surname="Perlman" fullname="Radia Perlman">
+				<organization></organization>
+  </author>
+  <date year="1999"/>
+  </front>
+		<seriesInfo name="Addison-Wesley Professional" value="2nd edition"/>
+  </reference>
+
+
+
+    <reference anchor="Day">
+  <front>
+  <title>Patterns in Network Architecture: A Return to Fundamentals</title>
+  <author initials="J." surname="Day" fullname="John Day">
+				<organization></organization>
+  </author>
+  <date year="1999"/>
+  </front>
+		<seriesInfo name="Prentice-Hall" value="1st edition"/>
+  </reference>
+
+
+
+</references>
+
+  </back>
+</rfc>
